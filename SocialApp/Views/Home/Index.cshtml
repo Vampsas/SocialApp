@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Sign up!</h1>
+</div>
+<br />
+<form>
+    <label for="login"><h3>Login:</h3></label><br />
+    <input type="text" id="login" name="login"><br><br>
+    <label for="email"><h3>Email:</h3></label><br />
+    <input type="text" id="email" name="email"><br><br>
+    <label for="password"><h3>Password:</h3></label><br />
+    <input type="password" id="password" name="password"><br><br>
+    <a asp-controller="Home" asp-action="Login">Do you have an account?</a><br />
+    <input type="submit" value="Sign Up">
+</form>
